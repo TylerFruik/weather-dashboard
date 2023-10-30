@@ -1,0 +1,173 @@
+/* * VARIABLES */ /* #region */
+:root {
+  --primary: #B4C1CA;
+  --secondary: #AF0808;
+  --tertiary: #505050;
+  --background: #1F1F1F;
+}
+/* #endregion */
+/* * MAJOR SELECTORS */ /* #region */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--background);
+}
+/* #endregion */
+/* * BUTTONS *//* #region */
+.btn {
+  border: none;
+  background-color: var(--secondary);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  color: hsl(0, 0%, 100%);
+  font-size: medium;
+  padding: 14px 20px;
+  text-align: center;
+  cursor: pointer;
+  filter: brightness(0.6);
+  transition: filter 0.4s ease;
+}
+
+.btn:hover {
+  filter: brightness(1);
+}
+/* #endregion */
+/* * HEADER *//* #region */
+header {
+  display: flex;
+  background-color: var(--secondary);
+  padding: 16px;
+}
+
+#header-spacing {
+  display: flex;
+  flex: 20%
+}
+
+header h1 {
+  font-size: xxx-large;
+  text-align: center;
+  flex: 80%;
+}
+/* #endregion */
+/* * MAIN *//* #region */
+main {
+  display: flex;
+}
+/* #endregion */
+/* * CITY SEARCH *//* #region */
+#city-search {
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  margin: 10px;
+}
+
+#search-top {
+  border-bottom: var(--primary) solid 2px;
+}
+
+#search-top h2 {
+  font-size: x-large;
+  margin: 20px 0;
+
+}
+
+#search-bar {
+  width: 100%;
+  height: 40px;
+  font-size: larger;
+}
+
+#search-btn {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.city-btn {
+  border: none;
+  background-color: var(--tertiary);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  color: hsl(0, 0%, 100%);
+  font-size: medium;
+  padding: 14px 20px;
+  text-align: center;
+  cursor: pointer;
+  filter: brightness(0.6);
+  transition: filter 0.4s ease;
+}
+
+.city-btn:hover {
+  filter: brightness(1);
+}
+
+/* #endregion */
+/* * WEATHER DISPLAY *//* #region */
+#weather-display {
+  display: flex;
+  flex-direction: column;
+  flex: 80%;
+  padding: 10px;
+}
+
+#day0 {
+  border: var(--primary) solid 2px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#day0 h2 {
+  font-size: xx-large;
+}
+
+#day0 h3 {
+  font-size: x-large;
+  margin: 20px;
+}
+
+#forecast-title {
+  font-size: xx-large;
+  margin: 20px;
+}
+
+#forecast {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.five-day-card {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.five-day-card h3 {
+  font-size: x-large;
+  margin: 10px;
+}
+
+.five-day-card h4 {
+  margin: 10px;
+}
+
+.five-day-card p {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/* #endregion */

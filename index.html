@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <header>
+    <div id="header-spacing"></div>
+    <h1>Weather Dashboard</h1>
+  </header>
+  <main>
+    <div id="city-search" class="">
+      <div id="search-top">
+        <h2>Search for a City:</h2>
+          <input id="search-bar" type="text">
+          <button id="search-btn" class="btn">Search</button>
+      </div>
+      <div id="previous-cities">
+          <button id="search-btn" class="city-btn">Example</button>
+      </div>
+    </div>
+    <div id="weather-display">
+      <div id="day0">
+        <h2>City Name <span>(mm/dd/yyyy)</span></h2>
+        <h3>Temp: <span>xx.xx</span> °F</h3>
+        <h3>Wind: <span>xx.xx</span> MPH</h3>
+        <h3>Humidity: <span>xx</span> %</h3>
+      </div>
+      <div id="forecast-title">
+        <h3>5-Day Forecast:</h3>
+      </div>
+      <div id="forecast">
+        <div id="day1" class="five-day-card">
+          <h3>mm/dd/yyyy</h3>
+          <p>🧁</p>
+          <h4>Temp: <span>xx.xx</span> °F</h4>
+          <h4>Wind: <span>xx.xx</span> MPH</h4>
+          <h4>Humidity: <span>xx</span> %</h4>
+        </div>
+        <div id="day2" class="five-day-card">
+          <h3>mm/dd/yyyy</h3>
+          <p>🧁</p>
+          <h4>Temp: <span>xx.xx</span> °F</h4>
+          <h4>Wind: <span>xx.xx</span> MPH</h4>
+          <h4>Humidity: <span>xx</span> %</h4>
+        </div>
+        <div id="day3" class="five-day-card">
+          <h3>mm/dd/yyyy</h3>
+          <p>🧁</p>
+          <h4>Temp: <span>xx.xx</span> °F</h4>
+          <h4>Wind: <span>xx.xx</span> MPH</h4>
+          <h4>Humidity: <span>xx</span> %</h4>
+        </div>
+        <div id="day4" class="five-day-card">
+          <h3>mm/dd/yyyy</h3>
+          <p>🧁</p>
+          <h4>Temp: <span>xx.xx</span> °F</h4>
+          <h4>Wind: <span>xx.xx</span> MPH</h4>
+          <h4>Humidity: <span>xx</span> %</h4>
+        </div>
+        <div id="day5" class="five-day-card">
+          <h3>mm/dd/yyyy</h3>
+          <p>🧁</p>
+          <h4>Temp: <span>xx.xx</span> °F</h4>
+          <h4>Wind: <span>xx.xx</span> MPH</h4>
+          <h4>Humidity: <span>xx</span> %</h4>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
