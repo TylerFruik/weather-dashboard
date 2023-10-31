@@ -1,3 +1,5 @@
+# FINAL VERSION POSTPONED: CURRENTLY HAVE COVID
+
 # Module 6 | Server-Side APIs Challenge | Weather Dashboard
 
 ## Finished Product
